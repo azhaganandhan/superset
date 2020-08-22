@@ -1,4 +1,4 @@
 FROM amancevice/superset:<version>
 USER root
-pip install gsheetsdb
+RUN pip install gsheetsdb
 USER superset
